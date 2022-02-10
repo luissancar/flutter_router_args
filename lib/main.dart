@@ -68,7 +68,6 @@ class _FirstScreenState extends State<FirstScreen> {
               width: 200.0,
               child: TextField(
                 controller: controladorPasswd,
-                autofocus: true,
                 keyboardType: TextInputType.text, // icono del botón
                 autocorrect: true,
                 textAlign: TextAlign.left,
